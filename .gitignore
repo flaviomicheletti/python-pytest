@@ -1,0 +1,7 @@
+*.pyc
+nbproject/
+__pycache__
+.pytest_cache
+python-exemplos.nja
+bin
+lib
