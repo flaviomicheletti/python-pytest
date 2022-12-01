@@ -16,13 +16,18 @@ __venv:__
 
     // in the first time
     pip install -U pytest
+    pip install pytest-mock
 
 __virtualenv:__
 
     virtualenv .
     source bin/activate
     pip install --upgrade pip
-    pip install mock
+
+    // in the first time
+    pip install -U pytest
+    pip install pytest-mock
+
     deactivate
 
 
