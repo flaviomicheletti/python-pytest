@@ -14,22 +14,21 @@ __venv:__
     python3 -m venv venv
     . venv/bin/activate
 
-    // in the first time
-    pip install -U pytest
-    pip install pytest-mock
-
 __virtualenv:__
 
     virtualenv .
     source bin/activate
     pip install --upgrade pip
 
+    deactivate
+
+## Install
+
+In both environments you will need to install it only once.
+
     // in the first time
     pip install -U pytest
     pip install pytest-mock
-
-    deactivate
-
 
 ## Running
 
