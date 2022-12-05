@@ -1,7 +1,8 @@
 *.pyc
-nbproject/
 __pycache__
 .pytest_cache
-python-exemplos.nja
+.coverage
+htmlcov
+venv
 bin
 lib

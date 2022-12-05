@@ -29,7 +29,18 @@ In both environments you will need to install it only once.
     // in the first time
     pip install -U pytest
     pip install pytest-mock
+    pip install pytest-cov
+    pip install coverage
+    pip install requests
 
 ## Running
 
     pytest
+
+
+## Coverage
+
+    coverage run -m pytest
+    coverage html
+
+    pytest --cov . --cov-report html
