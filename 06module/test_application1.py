@@ -1,5 +1,5 @@
 """
-https://www.freblogg.com/pytest-functions-mocking-1
+https://medium.com/@durgaswaroop/writing-better-tests-in-python-with-pytest-mock-part-2-92b828e1453c
 """
 from application1 import get_operating_system
 
