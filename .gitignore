@@ -4,5 +4,6 @@ __pycache__
 .coverage
 htmlcov
 venv
+.venv
 bin
 lib

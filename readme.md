@@ -9,18 +9,7 @@ https://docs.pytest.org/
 
 # Instalation
 
-__venv:__
-
-    python3 -m venv venv
-    . venv/bin/activate
-
-__virtualenv:__
-
-    virtualenv .
-    source bin/activate
-    pip install --upgrade pip
-
-    deactivate
+    python3 -m venv .venv && . .venv/bin/activate
 
 ## Install
 
