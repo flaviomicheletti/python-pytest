@@ -7,3 +7,4 @@ venv
 .venv
 bin
 lib
+example.db
