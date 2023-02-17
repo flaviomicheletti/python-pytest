@@ -2,7 +2,7 @@ import unittest
 from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-engine = create_engine('sqlite:///example.db')
+engine = create_engine('sqlite:///mdule11.db')
 Session = sessionmaker(bind=engine)
 Base = declarative_base()
 
