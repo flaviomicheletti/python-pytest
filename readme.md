@@ -19,10 +19,6 @@ In both environments you will need to install it only once.
     pip install pytest-mock
     pip install requests
 
-    # pip install pytest-cov
-    # pip install coverage
-    # pip install psycopg2
-
 ## Running
 
     pytest
