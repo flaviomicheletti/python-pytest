@@ -23,6 +23,8 @@ error messages if the assertion fails. Here are some examples:
 
 ## Pytest-mock
 
+- https://pytest-mock.readthedocs.io/en/latest/index.html
+
 `pytest-mock` is a plugin for the pytest testing framework that provides powerful mocking capabilities. It allows you to easily create and manage mocks, stubs, and spies in your test cases. Here are some of the ways you can use `pytest-mock`:
 
 1. Creating mocks: You can use `mocker.Mock()` or `mocker.MagicMock()` to create mock objects. These mocks can be used to replace dependencies and simulate their behavior during testing.
