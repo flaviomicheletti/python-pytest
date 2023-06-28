@@ -7,11 +7,11 @@ A little guide to help you test your Python code with framework __pytest__.
 https://docs.pytest.org/
 
 
-# Instalation
+__venve:__
 
     python3 -m venv .venv && . .venv/bin/activate
 
-## Install
+__libs:__
 
 In both environments you will need to install it only once.
 
@@ -19,17 +19,17 @@ In both environments you will need to install it only once.
     pip install pytest-mock
     pip install requests
 
-## Running
+__running:__
 
     pytest
 
-
-## Coverage
+__coverage:__
 
     coverage run -m pytest
     coverage html
 
-##  Coverage - pytest-cov
+
+__coverage(pytest-cov):__
 
 - https://pytest-cov.readthedocs.io/en/latest/
 
