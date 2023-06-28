@@ -29,6 +29,8 @@ In both environments you will need to install it only once.
     coverage run -m pytest
     coverage html
 
-##  COverage - pytest-cov
+##  Coverage - pytest-cov
+
+- https://pytest-cov.readthedocs.io/en/latest/
 
     pytest --cov . --cov-report html
